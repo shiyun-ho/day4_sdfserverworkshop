@@ -11,6 +11,8 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+import javax.swing.plaf.synth.SynthDesktopIconUI;
+
 /**
  * Hello world!
  */
@@ -60,7 +62,8 @@ public final class App {
                 //clients receive get cookie
 
                 if (msgReceived.equalsIgnoreCase("get-cookie")){
-                    String cookieValue = cookie.returnCookie(); 
+                    String cookieValue = cookie.returnCookie();
+                    System.out.println(cookieValue); 
                 }
 
             }

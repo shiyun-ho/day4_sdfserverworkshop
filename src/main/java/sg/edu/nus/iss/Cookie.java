@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Cookie {
-    String dirPath = "\\data2";
+    String dirPath = "data2";
     //instantiate a file/ directory object
     String fileName = "cookie.txt";
 
